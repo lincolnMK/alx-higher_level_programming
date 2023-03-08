@@ -7,7 +7,7 @@ if number > 0:
     mul = 1
 number = str(number)
 print(f"Last digit of {number} is {int(number[-1]) * mul}", end=' ')
-if int(number[-1]) > 5:
+if int(number[-1]) * mul > 5:
     print("and is greater than 5")
 if int(number[-1]) == 0:
     print("and is 0")
